@@ -1,0 +1,37 @@
+<variant
+    name="release"
+    package="com.amazonprimeclone.app.amazon_prime_clone"
+    minSdkVersion="16"
+    targetSdkVersion="31"
+    shrinking="true"
+    mergedManifest="D:\appsums\Amazon_Prime_Clone\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="D:\appsums\Amazon_Prime_Clone\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.1.2;C:\Users\DELL\Downloads\flutter_windows_3.3.2-stable\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="D:\appsums\Amazon_Prime_Clone\build\app\intermediates\lint_vital_partial_results\release\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\main\kotlin"
+        resDirectories="src\main\res"
+        assetsDirectories="src\main\assets"/>
+    <sourceProvider
+        manifest="src\release\AndroidManifest.xml"
+        javaDirectories="src\release\java;src\release\kotlin"
+        resDirectories="src\release\res"
+        assetsDirectories="src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="D:\appsums\Amazon_Prime_Clone\build\app\intermediates\javac\release\classes;D:\appsums\Amazon_Prime_Clone\build\app\tmp\kotlin-classes\release;D:\appsums\Amazon_Prime_Clone\build\app\kotlinToolingMetadata;D:\appsums\Amazon_Prime_Clone\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.amazonprimeclone.app.amazon_prime_clone"
+      generatedSourceFolders="D:\appsums\Amazon_Prime_Clone\build\app\generated\ap_generated_sources\release\out;D:\appsums\Amazon_Prime_Clone\build\app\generated\aidl_source_output_dir\release\out;D:\appsums\Amazon_Prime_Clone\build\app\generated\source\buildConfig\release;D:\appsums\Amazon_Prime_Clone\build\app\generated\renderscript_source_output_dir\release\out"
+      generatedResourceFolders="D:\appsums\Amazon_Prime_Clone\build\app\generated\res\rs\release;D:\appsums\Amazon_Prime_Clone\build\app\generated\res\resValues\release">
+  </mainArtifact>
+</variant>

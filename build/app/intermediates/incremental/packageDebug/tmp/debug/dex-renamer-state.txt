@@ -1,0 +1,4 @@
+#Mon Oct 10 00:05:48 IST 2022
+base.0=D\:\\appsums\\Amazon_Prime_Clone\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
